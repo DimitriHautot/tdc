@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<title>tRoU dU cULz hiDEoUt</title>
+</head>
+
+<body bgcolor="#00FFFF" text="#000000" link="#FF0000"
+vlink="#FF0000" alink="#FF0000"
+onload="timerONE=window.setTimeout('scroll_status(100)',50);"
+bgcolor="#00FFFF">
+<script langage="javascript">function scroll_status(seed)
+{
+        var msg="Bienvenue sur la Homepage de la Famille Boulet";
+        var out = " ";
+        var c   = 1;
+        if (100 < seed) {
+                seed--;
+                var cmd="scroll_status(" + seed + ")";
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 100 && 0 < seed) {
+                for (c=0 ; c < seed ; c++) {
+                        out+=" ";
+                }
+                out+=msg;
+                seed--;
+                var cmd="scroll_status(" + seed + ")";
+                    window.status=out;
+                timerTwo=window.setTimeout(cmd,100);
+        }
+        else if (seed <= 0) {
+                if (-seed < msg.length) {
+                        out+=msg.substring(-seed,msg.length);
+                        seed--;
+                        var cmd="scroll_status(" + seed + ")";
+                        window.status=out;
+                        timerTwo=window.setTimeout(cmd,100);
+                }
+                else {
+                        window.status=" ";
+                        timerTwo=window.setTimeout("scroll_status(100)",75);
+                }}}</script>
+
+<p align="center"><br>
+</p>
+
+<h1 align="center"><font color="#FFFF00"
+face="Lucida Handwriting">La Homepage de la Famille Boulet</font></h1>
+
+<p><br>
+Nous sommes Marie, Jean Pierre, Hervé et Christelle Boulet, nous
+habitont Cergy dans le Val d'Oise (95) <br>
+<br>
+Clicker ici pour telechargé la photo de notre famille.
+(Attantion, c'est du 1280x1024 en 16 millions de couleurs, elle
+fait 6Mo) <br>
+<br>
+<blink>Notre mail : boulet@infonie.fr</blink> <br>
+</p>
+</body>
+</html>

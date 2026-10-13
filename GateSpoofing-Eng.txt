@@ -1,0 +1,69 @@
+ ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+ บ                                                                       . บ
+ บ    WinGate Spoofing - how to ...        by Roch & Pixel / #inSomniEs    บ
+ บ                                                                         บ
+ บ                HomePage : http://web.avo.fr/pixel/progs                 บ
+ บ .                         email : pixel@avo.fr                          บ
+ ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+The Wingate spoufing manual "rosbif" edition or "How to make new friends
+on IRC ?"
+
+So you want to change your netmask on IRC hey ?
+Then follow these steps (with a smile for maximum efficiency) :
+1) Find the IP of a Wingate server
+
+2) Connect on this IP (port 23) 
+   If you use mirc : /server 194.51.123.181 23 for example
+
+3) Now from this Wingate connect to your favorite IRC server
+   by typing /raw Goettingen.DE.EU.Undernet.Org 6667
+   (type /raw and NOT /server of course... everybody's following ?) 
+
+4) Give your nick to the IRC server
+   Type /raw nick your_nick
+
+5) Give your username and your real name to the server now
+   /raw user bouseux 0 0 :vive la pizza
+
+7) type /ctcp wildthang THANG_WILDFUCK_DEEPLY
+
+Yeah ! kewl you can admire your brand new netmask and prepare yourself to
+save the world.
+
+
+Little summary for those who don't understand the <English v1.01 "bouseux" improved> used above :
+/server 194.51.123.181 23
+/raw Goettingen.DE.EU.Undernet.Org 6667
+/raw nick ton_nick
+/raw user bouseux 0 0 :vive la pizza
+
+
+
+And as a conclusion an example of what you should see :
+
+ÿ๛ÿ๛ÿýWinGate>NICK r0ch
+Connecting to host NICK...Host name lookup for 'NICK' failed
+USER bouseux "bouseux.quaternet.fr" "195.174.92.21" NAN pas voisine !!!
+Connecting to host USER bouseux "bouseux.quaternet.fr" "195.174.92.21" ...Host name lookup for 'USER trinque "bouseux.quaternet.fr" "195.174.92.21" ' failed
+-> SERVER: Goettingen.DE.EU.Undernet.Org 6667
+dernet.Org t.Org 67 "195.174.92.21" ...Host name lookup for 'USER bouseux "bouseux.quaternet.fr" "195.174.92.21" ' failed
+Connecting to host Goettingen.DE.EU.Undernet.Org...Connected
+-> SERVER: nick r0ch
+PING? PONG!
+-> SERVER: user bouseux 0 0 :na spas du spoof
+Welcome to the Internet Relay Network r0ch
+
+
+And here there's some people who begin to ask Where can I find a wingate
+server ? And what the fuck is a wingate server by the way ? And why the
+japanese kamikaze pilots were wearing helmets ?
+Well... To find a wingate server you can scan a domain to find all the IPs
+responding on the 23 and find one that run Wingate (Good luck Mr phelps)
+Or you can ask your nearest Pixel to make you a neat little wingate scanner.
+
+Okay that's all and remember...
+                               BEWARE OF THE MUTANT LANGOUSTE FROM OUTTA SPACE
+
+Commited the 11/11/97 at bouseuxland and requested by my local Pixel.
+roch
